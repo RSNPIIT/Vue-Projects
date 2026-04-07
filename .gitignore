@@ -1,0 +1,147 @@
+# 🄯 RSNPIIT — GNU GPLv3
+# .gitignore for Vue.js + p5.js on Linux, Windows, macOS, BSD
+
+# ===========================
+# 🐧 LINUX
+# ===========================
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ===========================
+# 🪟 WINDOWS
+# ===========================
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# ===========================
+# 🍎 MACOS
+# ===========================
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# ===========================
+# 😈 BSD
+# ===========================
+.*.sw[a-p]
+.*.un~
+Session.vim
+.netrwhist
+
+# ===========================
+# 📝 VIM / NEOVIM
+# ===========================
+*.swp
+*.swo
+*.swn
+*~
+.vim/
+tags
+.netrwhist
+Session.vim
+
+# ===========================
+# 🟩 NODE / NPM
+# ===========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.npm
+.yarn/cache
+.yarn/unplugged
+.pnpm-store/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# ===========================
+# 💚 VUE.JS
+# ===========================
+dist/
+dist-ssr/
+.vite/
+.nuxt/
+.output/
+.cache/
+*.local
+.env
+.env.*
+!.env.example
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+*.vue.js
+
+# ===========================
+# 🎨 P5.JS
+# ===========================
+# p5.js is usually CDN or local lib — ignore local copies
+p5.js
+p5.min.js
+p5.sound.js
+p5.sound.min.js
+libraries/
+addons/
+
+# ===========================
+# ⚙️ EDITORS & IDE
+# ===========================
+.vscode/
+.idea/
+*.iml
+.project
+.classpath
+*.sublime-project
+*.sublime-workspace
+
+# ===========================
+# 📦 BUILD & CACHE
+# ===========================
+*.log
+logs/
+.cache/
+.temp/
+.tmp/
+coverage/
+*.tsbuildinfo
+
+# ===========================
+# 🔐 SECRETS — NEVER COMMIT
+# ===========================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.pem
+*.key
+*.cert
+secrets/
