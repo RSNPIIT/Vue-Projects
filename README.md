@@ -12,7 +12,7 @@ Released under **GNU GPLv3** — Forever Free and Open Source.
 |---|---|
 | `frontend/` | Vue.js + Vite applications |
 | `p5_work/` | Creative coding sketches with p5.js |
-
+| `mathematics_visualization/` | Aerospace mathematics visualized with p5.js |
 ---
 
 ## 🛠 Setup
