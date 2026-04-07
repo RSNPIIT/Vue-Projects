@@ -1,25 +1,45 @@
-# Vue-Projects 🚀
+# Vue-Projects 🄯
 
-This repository tracks my journey and experiments with **Vue.js** frontend development. It is designed to demonstrate modern reactive UI patterns built with Vue and Vite.
+A personal repository tracking experiments and projects in **Vue.js**, **p5.js**, and modern frontend development.
 
-## 📁 Project Structure
+Released under **GNU GPLv3** — Forever Free and Open Source.
 
-- `frontend/`: The Vue.js application (built with Vite).
+---
 
-## 🛠️ Setup & Installation
+## 📁 Structure
 
-Navigate to the frontend directory, install dependencies, and launch the development server:
+| Folder | Contents |
+|---|---|
+| `frontend/` | Vue.js + Vite applications |
+| `p5_work/` | Creative coding sketches with p5.js |
+
+---
+
+## 🛠 Setup
 ```bash
 cd frontend
 npm install
 npm run dev
 ```
 
-## 🌐 Environment Requirements
+---
 
-- **Node.js**: v16.x or higher
-- **Package Manager**: npm
+## 🌐 Requirements
+
+- **Node.js** v16+
+- **npm** or **pnpm**
+- **OS** — Linux / Windows / macOS / BSD
 
 ---
 
-Maintained by **RSNPIIT**
+## 🎨 p5.js Sketches
+
+Standalone JS files — just open with a browser or Live Server.
+No build step needed.
+
+---
+
+## 📜 License
+
+🄯 Copyleft **RSNPIIT** (Ramrup Satpati) — IIT Madras
+Released under [GNU GPLv3](https://www.gnu.org/licenses/gpl-3.0.en.html)
